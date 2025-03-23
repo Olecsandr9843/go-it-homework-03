@@ -18,13 +18,29 @@ body {
   button:hover, button:focus {
     background-color: #404BBF;
   }
-  
-  .nav-link {
+
+  .nav-list{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    border: 2px solid transparent;
+    height: 261px;
+    height: 24px;
+    margin: 24px  832px 24px 347px;
+  }
+  
+  .nav-link-one{
+    padding: 0px 213px 0px 0px;
+  }
+  
+  .nav-link-two{
+    padding: 0px 107px 0px 88px;
+  }
+
+  .nav-link-three{
+    padding: 0px 0px 0px 194px;
   }
   
   .nav-link:hover, .nav-link:focus {
@@ -32,7 +48,25 @@ body {
   }
 
   .logo{
+    border: 2px solid transparent;
+    width: 44px;
+    height: 21px;
+    padding: 1.5px 71px 1.5px 0px; 
     margin-left: 156px;
+    margin-top: 25.5px;
+    margin-bottom: 25.5px; 
+    margin-right: 1240px;              
+  }
+
+  .header-logo{
+    border: 2px solid transparent;
+    width: 71px;
+    height: 21px;
+    padding: 1.5px 0 1.5px 44px;
+    margin-top: 25.5px;
+    margin-bottom: 25.5px;
+    margin-right: 1169px;
+    margin-left: 200px;
   }
   
   .logo-text {
@@ -48,17 +82,22 @@ body {
   .logo-span {
     color: #2e2f42;
   }
+
   
   .contact-info {
     font-style: normal;
   }
   
-  .contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
+  .contact-link-one {
+    height: 24px;
+    width: 153px;
+    margin: 24px 347px 24px 940px;
+  }
+
+  .contact-link-two{
+    width: 151px;
+    height: 24px;
+    margin: 24px 156px 24px 1133px;
   }
   
   .contact-link:hover, .contact-link:focus {
@@ -188,9 +227,13 @@ body {
     list-style: none;
   }
   .contact-list{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
     list-style: none;
-    margin-top: 24px;
-    margin-bottom: 24px;  
+    margin: 24px 0px;
   }
   .advantage-list{
     list-style: none;
@@ -216,3 +259,7 @@ body {
     padding: 0;
     margin: 0;
   }
+
+  .container { 
+    max-width: 1158px;
+    }
