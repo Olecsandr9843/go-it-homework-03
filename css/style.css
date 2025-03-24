@@ -240,9 +240,14 @@ body {
   }
   .team-list{
     list-style: none;
+    display: flex;
   }
   .portfolio-list{
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
   }
       
   h1,h2,h3,h4,h5.h5 {
@@ -262,4 +267,28 @@ body {
 
   .container { 
     max-width: 1158px;
+    }
+
+    .team{
+      padding: 120px 0;
+      gap: 24px;
+    }
+
+    .team-h3{
+      margin-bottom: 72px;
+    }
+
+    .portfolio{
+      padding-top: 120px; 
+      padding-bottom: 120px;
+    }
+
+    .portfolio-h2,h3{
+      margin-bottom: 72px;
+    }
+
+    .conteiner-portfolio{
+      padding: 32px 16px;
+      border: 1px solid #e7e9fc;
+      border: 1px solid #e7e9fc;
     }
